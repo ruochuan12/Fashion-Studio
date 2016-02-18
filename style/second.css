@@ -1,0 +1,50 @@
+
+@charset "utf-8";
+/* CSS Document */
+/* 页面元素初始化-start */
+body{margin:0;background:url(../images/bg.jpg);}
+form,ul,ol,li{padding:0;}
+ul,ol,li{list-style:none;margin:0;}
+a{text-decoration:none;}
+img{border:none;}
+/*清空浮动的代码-start*/
+.clr:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clr {display:inline-block;}
+html[xmlns] .clr {display: block;}
+* html .clr {height: 1%;}
+/*清空浮动的代码-end*/
+/* 页面元素初始化-end */
+.main{
+	height:1040px;
+	width:1000px;
+	margin:0 auto;
+}
+.auMain{
+	width:1000px;
+	height:648px;
+	margin:20px auto;
+}
+.auRightUl{
+	width:750px;
+	height:580px;
+	
+}
+.auRightLi{
+	width:730px;
+	height:60px;
+	float:left;
+	padding-left:20px;
+	background:url(../images/secondNav.jpg) no-repeat 8px 8px;
+}
+.auRightLi span{
+	font-size:13px;
+	color:#858585;
+	
+}
+.auRightLi a{
+	font-size:13px;
+	color:#858585;
+}
+.auRightLi a:hover{
+	color:#003015;
+}

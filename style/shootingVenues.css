@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+/* 页面元素初始化-start */
+body{margin:0;background:url(../images/bg.jpg);}
+form,ul,ol,li{padding:0;}
+ul,ol,li{list-style:none;margin:0;}
+a{text-decoration:none;}
+img{border:none;}
+/*清空浮动的代码-start*/
+.clr:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clr {display:inline-block;}
+html[xmlns] .clr {display: block;}
+* html .clr {height: 1%;}
+/*清空浮动的代码-end*/
+/* 页面元素初始化-end */
+.main{
+	height:1040px;
+	width:1000px;
+	margin:0 auto;
+}
+.auMain{
+	width:1000px;
+	height:648px;
+	margin:20px auto;
+}
+.shootingVenuesUl{
+	width:750px;
+	height:604px;
+	margin-top:20px;
+}
+.shootingVenuesLi{
+	width:222px;
+	height:165px;
+	margin:0 10px 0 10px;
+	float:left;
+	text-align:center;
+}
+.shootingVenuesLi a{
+	font-size:12px;
+	color:#858585;
+}
+.shootingVenuesLi a:hover{
+	color:#003015;
+}

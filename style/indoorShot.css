@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+/* 页面元素初始化-start */
+body{margin:0;background:url(../images/bg.jpg);}
+form,ul,ol,li{padding:0;}
+ul,ol,li{list-style:none;margin:0;}
+a{text-decoration:none;}
+img{border:none;}
+/*清空浮动的代码-start*/
+.clr:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clr {display:inline-block;}
+html[xmlns] .clr {display: block;}
+* html .clr {height: 1%;}
+/*清空浮动的代码-end*/
+/* 页面元素初始化-end */
+.main{
+	height:1040px;
+	width:1000px;
+	margin:0 auto;
+}
+.auMain{
+	width:1000px;
+	height:648px;
+	margin:20px auto;
+}
+.indoorTit{
+	width:750px;
+	height:30px;
+	font-size:18px;
+	color:#003015;
+	font-weight:bold;
+	line-height:30px;
+	text-align:center;
+}
+.indoorpic{
+	width:700px;
+	height:400px;
+	margin:0 auto;
+	background:url(../images/indoorpic.jpg) no-repeat center top;
+}
+.indoorDetailedIn{
+	width:730px;
+	height:39px;
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+	line-height:39px;
+	padding-left:20px;
+	border-bottom:1px dashed #858585;
+	background:url(../images/detailedIn.gif) no-repeat 5px 13px;
+}
+.indoorDetailedIn1{
+	width:750px;
+	height:39px;
+	font-size:12px;
+	color:#858585;
+	line-height:39px;
+	text-align:center;
+	border-bottom:1px dashed #858585;
+}
+.jiaThis{
+	width:750px;
+	height:30px;
+}
+.indoorNext{
+	width:750px;
+	height:40px;
+	font-size:13px;
+	color:#003015;
+	line-height:40px;
+	text-align:center;
+}
+.indoorNext a{
+	font-size:13px;
+	color:#03F;
+	
+}
+.indoorNext a:hover{
+	color:#003015;
+}
