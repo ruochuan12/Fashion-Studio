@@ -8,9 +8,9 @@
 >2.总共8个页面，主要使用HTML+CSS，JavaScript。<br/>
 >3.一个JavaScript实现的轮播图片效果。<br/>
 >4.用Photoshop处理了一些图片。<br/>
->5.这是模仿一个网站的界面，代码是自己写的。<br/>
 
 
 
 
->仿站网址：http://www.metinfo.cn/demo/met087/364/
+
+>查看Demo：http://lxchuan12.github.io/Fashion-Studio
